@@ -188,7 +188,5 @@ public class IndexTree {
 		index.delete("combat");
 		System.out.printf("After calling delete(combat): %b\n\n\n", index.contains("combat"));
 
-		index.printIndex();
-		
 	}
 }
